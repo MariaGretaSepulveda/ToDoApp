@@ -8,7 +8,7 @@ import Todo from './components/Todo.js'
 function App() {
   return (
     <div className="App">
-      <Header subtitle="A brand new app" />
+      <Header subtitle="A brand new app by a real OG" />
       <Todo/>
       </div>
   );

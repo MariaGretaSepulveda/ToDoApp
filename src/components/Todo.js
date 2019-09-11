@@ -15,7 +15,7 @@ class Todo extends Component {
   handleDelete (itemToBeDeleted) {
     console.log(itemToBeDeleted);
     const newTodos = this.state.todos.filter((_item) => {
-      return _item !=itemToBeDeleted
+      return _item !==itemToBeDeleted
     });
     this.setState({ todos: newTodos });
   }
